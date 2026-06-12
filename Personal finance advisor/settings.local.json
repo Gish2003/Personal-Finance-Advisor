@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(swipl -g \"consult\\('finance_advisor.pl'\\), \\(current_predicate\\(start/0\\) -> writeln\\(ok_loaded\\) ; writeln\\(missing\\)\\), halt\")",
+      "Bash(swipl -g \"consult\\('prolog/finance_advisor.pl'\\), halt\")",
+      "Bash(swipl -g \"run_all, halt\" _scratch_verify.pl)",
+      "Bash(swipl -g \"go, halt\" _scratch_verify2.pl)",
+      "Bash(rm _scratch_verify2.pl)"
+    ]
+  }
+}

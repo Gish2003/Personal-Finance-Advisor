@@ -1,0 +1,4 @@
+streamlit
+pyswip
+pandas
+pytest
